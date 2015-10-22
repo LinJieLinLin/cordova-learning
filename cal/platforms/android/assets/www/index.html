@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="style/calculator.css"/>
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+  </head>
+  <body style="touch-action:none;">
+    <div id="display"><div></div></div>
+    <div id="panel">
+      <div class="x-row">
+        <input type="button" class="double-x" value="C" data-type="command" />
+        <input type="button" class="small" value="÷" id="add" data-type="operator" />
+        <input type="button" class="small" value="×" id="multiply" data-type="operator" />
+      </div>
+      <div class="row-block">
+        <div class="row">
+          <input type="button" class="small" value="7" data-type="value" />
+          <input type="button" class="small" value="8" data-type="value" />
+          <input type="button" class="small" value="9" data-type="value" />
+        </div>
+        <div class="row">
+          <input type="button" class="small" value="4" data-type="value" />
+          <input type="button" class="small" value="5" data-type="value" />
+          <input type="button" class="small" value="6" data-type="value" />
+        </div>
+        <div class="row">
+          <input type="button" class="small" value="1" data-type="value" />
+          <input type="button" class="small" value="2" data-type="value" />
+          <input type="button" class="small" value="3" data-type="value" />
+        </div>  
+        <div class="row">
+          <input type="button" class="double-x" value="0" data-type="value" />
+          <input type="button" class="small" value="." data-type="value" />
+        </div>
+      </div>
+        <div class="y-row">
+          <input type="button" class="small" value="-" id="subtract" data-type="operator" />
+          <input type="button" class="small" value="+" id="divide" data-type="operator" />
+          <input type="button" class="double-y" value="=" data-type="command" />
+        </div>
+    </div>
+    <script src="js/calculator.js"></script>
+  </body>
+</html>
