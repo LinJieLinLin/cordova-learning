@@ -1,5 +1,5 @@
 # cordova-learning
 <h1>studyCordova</h1>
 # 
-# [open in githubPage](www.baidu.com)
+# [open in githubPage](http://linjielinlin.github.io/cordova-learning/)
 # 
